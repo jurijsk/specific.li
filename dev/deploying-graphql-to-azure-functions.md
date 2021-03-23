@@ -1,3 +1,5 @@
+# How to setup GraphQL API as Azure Functions (Loacally)
+
 This page documents deploymnet of Graph SQL Server to Azure as Azure Functions (Serversless)
 
 You will need VS code and PowerShell, this all is ment for windows users.
@@ -51,3 +53,12 @@ export default server.createHandler();
 ```
 
 and hit play. This is the beginning.
+
+## Pick up here:
+https://docs.microsoft.com/en-us/azure/azure-functions/functions-develop-vs-code?tabs=nodejs
+https://techcommunity.microsoft.com/t5/apps-on-azure/graphql-on-azure-part-3-serverless-with-javascript/ba-p/1576922
+https://azure.microsoft.com/en-us/resources/videos/build-2019-build-scalable-apis-using-graphql-and-serverless/
+https://www.apollographql.com/docs/apollo-server/deployment/azure-functions/
+
+https://blog.bitsrc.io/apollo-and-relay-side-by-side-adb5e3844935
+

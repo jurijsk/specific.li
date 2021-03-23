@@ -62,3 +62,6 @@ https://www.apollographql.com/docs/apollo-server/deployment/azure-functions/
 
 https://blog.bitsrc.io/apollo-and-relay-side-by-side-adb5e3844935
 
+
+https://react-query.tanstack.com/comparison
+

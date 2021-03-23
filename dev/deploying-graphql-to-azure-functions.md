@@ -1,36 +1,26 @@
 This page documents deploymnet of Graph SQL Server to Azure as Azure Functions (Serversless)
 
-You will need:
-
-1. VS code
-2. [Azure Functions extension for VS Code](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azurefunctions)
-
+You will need VS code and PowerShell, this all is ment for windows users.
 
 Steps:
 
 (Follow https://dev.to/azure/graphql-on-azure-part-3-serverless-with-javascript-5gb9 with uses Apollo GraphQL and [this tooling](https://www.apollographql.com/docs/apollo-server/deployment/azure-functions/))
-
-1. [Install the Azure Functions Core Tools](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local?tabs=windows%2Ccsharp%2Cbash&WT.mc_id=techcommunity-blog-aapowell#v2)
-2. This will allow you to run:
-
+1. [Install Azure Functions extension for VS Code](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azurefunctions)
+2. [Install the Azure Functions Core Tools](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local?tabs=windows%2Ccsharp%2Cbash&WT.mc_id=techcommunity-blog-aapowell#v2)
+3. This will allow you to run:
+change `project.functions` and `data-endpoint` to something of your choosing. `data-endpoint` will be request url (_example.com/api/data-endpoint_)
 ```
-func init func-project-name --worker-runtime node --language typescript
-cd func-project-name
+func init project.functions --worker-runtime node --language typescript
+cd project.functions
+func new --template "Http Trigger" --name data-endpoint
+npm install --save apollo-server-azure-functions graphql
+npm install
 code .
 ```
-_create the project, open the directory and open the directory in vs code._
+_create the project directory, open the directory, adds the trigger, installs required packages, opens vs code_
 
-3. create http trigger with will serve the data
-```
-func new --template "Http Trigger" --name data
-```
---name can be anything
 
-4. install dependencies
-```
-npm install --save apollo-server-azure-functions graphql
-```
-5. copy this to `data\index.ts`:
+4. copy this to `data\index.ts`:
 ```
 import {ApolloServer, gql} from "apollo-server-azure-functions";
 
@@ -50,7 +40,8 @@ const resolvers = {
 const server = new ApolloServer({typeDefs, resolvers});
 export default server.createHandler();
 ```
-6. run `funct start` in the terminal
+5. open 'data\function.json' and change `"name": "res"` to `"name": "$return"` somewhere towards the end of the file. 
+6. run `start:host` in the terminal
 7. open the link from the terminal, should be http://localhost:7071/api/data
 8. in the open tab copy this to the query window:
 ```
@@ -59,4 +50,4 @@ export default server.createHandler();
 }
 ```
 
-if you are using TypeScript, you need to enable esModuleInterop in your tsconfig.json file.
+and hit play. This is the beginning.

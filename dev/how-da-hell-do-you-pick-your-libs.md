@@ -1,4 +1,4 @@
-[!fish](images/fish.png)
+![fish](../images/fish.png)
 
 Will try to give some context. The thing I'm building is a browser plugin (because the browser is a new OS and you need to be where your clients already are). I expect that users might have a couple of instances running simultaneously in different tabs. Plus, updates might come from the server, as your collection can be edited by someone else.
 

@@ -7,3 +7,4 @@ I also take not particularly usefull notes.
 ## On development
  * [How to setup GraphQL API as Azure Functions](/dev/deploying-graphql-to-azure-functions.md)
  * [What is GraphQL](/dev/what-is-graphql.md)
+ * [Picking my poison with Libraries JS](/dev/how-da-hell-do-you-pick-your-libs.md)

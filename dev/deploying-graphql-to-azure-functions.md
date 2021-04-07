@@ -59,7 +59,7 @@ Adding setting to Azure Fucntion App to access via `process.env`
 _**manually:**_ 
 go to Function App / Settings / Configuration / Application Settings tab and do your thing.
 
-_**sustainably:**_
+_**sustainably: and together with the code**_
 
 1. [Install Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows?tabs=azure-cli)
 2. run `az login` in PowerShell
@@ -70,6 +70,8 @@ e.g.
 az functionapp config appsettings set -n copycanecho -g Copycan --settings "hereitis=thevalue"
 
 `
+also read [this](https://cmatskas.com/azure-functions-node-js-and-environment-variables/) to learn how to publish setting together with the functions. 
+
 _**locally:**_
 1. add or open [`local.settings.json`](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local?tabs=windows%2Ccsharp%2Cbash#local-settings-file) in/to the root directory of the project.
 2. add key value pair to the Values collection

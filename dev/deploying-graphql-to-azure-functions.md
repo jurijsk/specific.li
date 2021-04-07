@@ -54,6 +54,27 @@ export default server.createHandler();
 
 and hit play. This is the beginning.
 
+Adding setting to Azure Fucntion App to access via `process.env`
+
+_**manually:**_ 
+go to Function App / Settings / Configuration / Application Settings tab and do your thing.
+
+_**sustainably:**_
+
+1. [Install Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows?tabs=azure-cli)
+2. run `az login` in PowerShell
+3. run `az functionapp config appsettings list --n FuncAppName --g ResGroupName` so see what is already there.
+4. run `az functionapp config appsettings set --n FuncAppName -g ResGroupName --settings "settingname=$settingvalue"` 
+e.g.
+`
+az functionapp config appsettings set -n copycanecho -g Copycan --settings "hereitis=thevalue"
+
+`
+_**locally:**_
+1. add or open [`local.settings.json`](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local?tabs=windows%2Ccsharp%2Cbash#local-settings-file) in/to the root directory of the project.
+2. add key value pair to the Values collection
+
+
 ## Pick up here:
 https://docs.microsoft.com/en-us/azure/azure-functions/functions-develop-vs-code?tabs=nodejs
 https://techcommunity.microsoft.com/t5/apps-on-azure/graphql-on-azure-part-3-serverless-with-javascript/ba-p/1576922

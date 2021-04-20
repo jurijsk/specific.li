@@ -3,7 +3,7 @@
 **TD/DR;**
 
 * keywords: `scalar` `type` `enum`
-* scalar types: `Int` `Float` `String` `ID`
+* scalar types: `Boolean` `Int` `Float` `String` `ID`
 * no commas
 * `!` for non-nullable e.g. propName: Int!
 * `[Int!]` for nullable collection of non-nullable elements
@@ -21,7 +21,7 @@ type TypeName {
 
 defines type
 
-Scalar, predefined types, are `Int`, `Float`, `String`, `ID`.
+Scalar, predefined types, are `Boolean` `Int`, `Float`, `String`, `ID`.
 `ID` serialized as `String`.
 
 Proprty can be of any scalar type of any of the user-defines types.
@@ -66,6 +66,7 @@ type Address {
 type User {
   id: ID
   age: Int!
+  active: Boolean
   name: String
   address: Address!
   projects: [Int!]

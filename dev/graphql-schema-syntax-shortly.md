@@ -1,5 +1,14 @@
 # GraphQL Schema Syntax Shortly
 
+**TD/DR;**
+
+* keywords: `scalar` `type` `enum`
+* scalar types: `Int` `Float` `String` `ID`
+* no commas
+* `!` for non-nullable e.g. propName: Int!
+* `[Int!]` for nullable collection of non-nullable elements
+
+
 ```
 type TypeName {
   propName: propType
@@ -14,7 +23,7 @@ Scalar, predefined types, are `Int`, `Float`, `String`, `ID`.
 
 Proprty can be of any scalar type of any of the user-defines types.
 
-Exclamation mark (`!`) makes the proterty nullable.
+Exclamation mark (`!`) makes the proterty non-nullable.
 
 You can define scalar as follows:
 
@@ -56,7 +65,7 @@ type User {
   age: Int!
   name: String
   address: Address!
-  projects: [Int]!
+  projects: [Int!]
   type: UserType
   createdAt: Date
 }

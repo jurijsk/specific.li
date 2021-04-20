@@ -16,8 +16,7 @@ Proprty can be of any scalar type of any of the user-defines types.
 
 Exclamation mark (`!`) makes the proterty nullable.
 
-Examples
-
+_Example:_
 ```
 type Address {
   id: ID
@@ -35,8 +34,9 @@ type User {
 }
 ```
 
-note the absence of commas
-list of project can be null but list element can not me null
+* note the absence of commas
+* list of project can be null but list element can not me null
+
 
 more here:
 https://graphql.org/learn/schema/

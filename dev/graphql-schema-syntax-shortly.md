@@ -16,8 +16,34 @@ Proprty can be of any scalar type of any of the user-defines types.
 
 Exclamation mark (`!`) makes the proterty nullable.
 
+You can define scalar as follows:
+
+```scalar Date```
+
+User-defined scalar are serialized and persisted as default scalars at the end. 
+
+
+To define enum:
+
+```
+enum EnumName {
+  ConstOne,
+  ConstTwo
+}
+
+```
+
+
 _Example:_
 ```
+scalar Date
+
+
+enum UserType {
+  basic
+  pro
+}
+
 type Address {
   id: ID
   city: String
@@ -31,11 +57,15 @@ type User {
   name: String
   address: Address!
   projects: [Int]!
+  type: UserType
+  createdAt: Date
 }
 ```
 
 * note the absence of commas
 * list of project can be null but list element can not me null
+
+
 
 
 more here:

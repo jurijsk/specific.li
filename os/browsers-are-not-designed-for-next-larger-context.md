@@ -1,4 +1,4 @@
-# Browsers are not designed for next larger context.
+# Browsers are not designed for the next larger context.
 
 ![chair-in-a-room](chair-in-a-room.jpg)
 _photo by [@DTeychenne](https://twitter.com/DTeychenne)_

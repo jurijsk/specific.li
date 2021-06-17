@@ -14,6 +14,7 @@ _Where I rant about the browsers_
  * [How to setup GraphQL API as Azure Functions](/dev/deploying-graphql-to-azure-functions.md)
  * [What is GraphQL](/dev/what-is-graphql.md)
  * [Picking my poison with Libraries JS](/dev/how-da-hell-do-you-pick-your-libs.md)
+ * [Notes on Google Analitics (Universal Analytics) Mesurement Protocol and Enhanced Ecommerce with Custom Dimensions](/ga-ua-mesurement-protocol-enhanced-ecommerce-custom-dimensions.md)
 
 ##### Control Rooms Freak-out
 

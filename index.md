@@ -16,6 +16,11 @@ _Where I rant about the browsers_
  * [Picking my poison with Libraries JS](/dev/how-da-hell-do-you-pick-your-libs.md)
  * [Notes on Google Analitics (Universal Analytics) Mesurement Protocol and Enhanced Ecommerce with Custom Dimensions](/ga-ua-mesurement-protocol-enhanced-ecommerce-custom-dimensions.md)
 
+ ##### Of other staff
+
+ * [How I 'kluged' together my video recording setup](/misc/video-recording-setup.md)
+ * [The Palestine-Israeli Conflict: A Beginner's Guide](/misc/the-palestine-israeli-conflict-a-beginners-guide.md)
+
 ##### Control Rooms Freak-out
 
 _Where I lay down my learning and thought about the design for control room interfaces, Human-MAchine Interfaces (HMI), and Control & Instrumentation. I focus on Nuclear Power Plants because nuclear is the source of beautiful energy._

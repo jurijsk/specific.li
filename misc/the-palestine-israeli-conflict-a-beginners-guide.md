@@ -1,4 +1,4 @@
-![The Palestine-Israeli Conflict: A Beginner's Guide Cover](the-palestine-israeli-conflict-a-beginners-guide-cover.jpg)
+![The Palestine-Israeli Conflict: A Beginner's Guide Cover](the-palestine-israeli-conflict-a-beginners-guide/the-palestine-israeli-conflict-a-beginners-guide-cover.jpg)
 
 Striking book, must-read. The Palestine-Israeli Conflict: A Beginner's Guide. The first book I've read on the subject. Very insightful despite listing a bunch of names and exact dates with are not as relevant for me personally.
 
@@ -14,7 +14,7 @@ In the last part Sherbok just resorts to "whataboutism" and goes on quoting anti
 
 The reply by El-Alami is sharp and logical. He points out that the British had no authority over Palestine, and it was not for them to decide who should have statehood in Palestine. Asking Arabs to comply was not exactly fair.
 
-![The abuser becomes the abuser](the-palestine-israeli-conflict-a-beginners-guide-page.jpg)
+![The abuser becomes the abuser](the-palestine-israeli-conflict-a-beginners-guide/the-palestine-israeli-conflict-a-beginners-guide-page.jpg)
 
 Book is good, maybe the best for a beginner. It does not give two sides. I already knew one side. It gives the second side of the story.
 

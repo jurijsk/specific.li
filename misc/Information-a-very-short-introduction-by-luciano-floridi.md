@@ -18,7 +18,7 @@ Mathematical theory of communication, Shannon's information theory, then through
 
 Ethics of information which is as I understand it and an invention of the author, so this book isn't the into to information this is an "into to info and my glorious theory of information ethics". 
 
-I did not sign up for it, I do not get it, and I can not recommend it. And despite the author's hope for the book to be useful in the "information society in which we live" - it isn't. At least not for me, the average joy, graded curious about things. I did not get its utility. 
+I did not sign up for it, I do not get it, and I can not recommend it. And despite the author's hope for the book to be useful for the life in "information society in which we live" - it isn't. At least not for me, average person curious about things. I did not get its utility. 
 
 The book has interesting references and ideas, I picked up a few. I want to know more about Shanon's information theory, the scandal of deduction, inverse relationship principle, but there are should be better ways to learn about those things. All those concepts appear in Chapter 4 on Semantic Information. If you need to read something of this book - read chapter 4.
 

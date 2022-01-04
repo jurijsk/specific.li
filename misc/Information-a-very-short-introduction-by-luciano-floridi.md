@@ -1,6 +1,6 @@
 # Something on information
 
-The following is by review of Information: A very short Introduction by Luciano Floridi.
+The following is my review of Information: A very short Introduction by Luciano Floridi.
 
 
 I think if I rate this book 1 star, no one gets hurt. Enough people read it and value it 5 starts so the voice is not going to ruin anything for anyone.

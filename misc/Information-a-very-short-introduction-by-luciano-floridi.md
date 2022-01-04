@@ -12,9 +12,9 @@ variety of informational phenomena with we deal on a
 daily basis, of their profound and fundamental importance,
 and hence of the information society in which we live".
 ```
-and starts dragging the reader through information taxonomy. 
+I'm afraid the author didn't succeed. Paraphrasing example from the book itself, it describes the Information as "a Newtonian description of the physical laws describe the dynamics of a tennis game", as opposed to "the description of the same game as a Wimbledon final by a commentator".
 
-The mathematical theory of communication, Shannon's information theory, then through more taxonomy, quantum information, DNA and neurons, game theory and Bayesian probabilities, and finally ethics of information with a bit of greenwashing at the very end. 
+The author drags the reader through information taxonomy the mathematical theory of communication, Shannon's information theory, then through more taxonomy, quantum information, DNA and neurons, game theory and Bayesian probabilities, and finally ethics of information with a bit of greenwashing at the very end. 
 
 Ethics of information which is as I understand it and an invention of the author, so this book isn't the into to information this is an "into to info and my glorious theory of information ethics". 
 

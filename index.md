@@ -22,7 +22,8 @@ _Where I rant about the browsers_
  ##### Of other staff
 
  * [How I 'kluged' together my video recording setup](/misc/video-recording-setup.md)
- * [The Palestine-Israeli Conflict: A Beginner's Guide](/misc/the-palestine-israeli-conflict-a-beginners-guide.md)
+ * [Book notes/review: The Palestine-Israeli Conflict: A Beginner's Guide](/misc/the-palestine-israeli-conflict-a-beginners-guide.md)
+ * [Book notes/review: Information: A Very Short Introduction by Luciano Floridi](/misc/Information-a-very-short-introduction-by-luciano-floridi.md)
 
 ##### Control Rooms Freak-out
 

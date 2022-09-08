@@ -28,4 +28,4 @@ _Where I rant about the browsers_
 
 #### Control Rooms Freak-out
 
-_Where I lay down my learning and thought about the design for control room interfaces, Human-MAchine Interfaces (HMI), and Control & Instrumentation. I focus on Nuclear Power Plants because nuclear is the source of beautiful energy._
+_Where I lay down my learning and thought about the design for control room interfaces, Human-Machine Interfaces (HMI), and Control & Instrumentation. I focus on Nuclear Power Plants because nuclear is the source of beautiful energy._

@@ -4,6 +4,9 @@ Fortunately I do not have the time to actually create a website.
 
 I also take not particularly usefull notes.
 
+#### Textjoint, text, reading, PDF and AI
+-   [Chat with PDF is a terrible idea](/textjoint/chat-with-pdf.md)
+
 #### On modern OS a.k.a browsers
 
 _Where I rant about the browsers_
